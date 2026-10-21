@@ -1,4 +1,4 @@
-# ET-28xx Waste Ink Pad Reset
+# ET-2820 Waste Ink Pad Reset
 
 A small console tool to **read and reset the waste ink pad counters** of the Epson EcoTank
 ET-2820 and identical models, after the ink pad has been **physically replaced**.

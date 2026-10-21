@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Phase25
+# Licensed under the EUPL-1.2 (https://github.com/Phase25/et2820-ink-pad-reset)
 """Tintenauffangkissen-Zähler für Epson ET-2820 (und Baugleiche) auslesen und zurücksetzen.
 
 Read and reset the waste ink pad counters of Epson ET-2820 (and identical models).
@@ -246,6 +248,9 @@ def reset(drucker):
 
 
 def temp_reset(drucker):
+    if not modell_ok(identitaet(drucker)[0]):
+        print(T["abbruch_modell"])
+        return
     if input(T["frage_temp"].format(T["ja"])).strip() != T["ja"]:
         return
     if drucker.temporary_reset_waste():
