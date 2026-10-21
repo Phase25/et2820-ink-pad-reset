@@ -9,8 +9,21 @@ English and German user interface (picked from the Windows display language, ove
 > **Use at your own risk.** Only reset the counters after replacing or cleaning the waste
 > ink pad (or fitting an external waste ink bottle). Resetting the counter alone does not
 > empty the pad: ink can overflow and damage the printer or your desk. Writing to the
-> printer's EEPROM may void your warranty. This project is not affiliated with or endorsed
-> by Seiko Epson Corporation.
+> printer's EEPROM may void your warranty (see [Warranty](#warranty)). This project is not
+> affiliated with or endorsed by Seiko Epson Corporation.
+
+## Warranty
+
+Replacing the waste ink pad yourself and writing to the printer's EEPROM **may void Epson's
+manufacturer warranty**. Epson's warranty terms typically exclude damage caused by modification
+by or on behalf of the end user, and treat waste ink pads as consumables that are not covered once
+they reach the end of their service life (see for example
+[Epson Australia's CoverPlus terms](https://www.epson.com.au/coverplus/terms/inkjetandmultifunctionstermsrtb.asp)).
+Terms differ by country, so check the warranty conditions that apply to your printer before using
+this tool, especially if it is still under warranty or registered for Epson's extended warranty.
+
+In the EU, your statutory rights against the seller are not removed by this, but defects caused by
+the modification will generally not be covered.
 
 ## Supported printers
 
