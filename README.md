@@ -75,12 +75,3 @@ This project was created with the help of [Claude](https://claude.com/claude-cod
 ## License
 
 [EUPL-1.2](LICENSE)
-
----
-
-## Kurz auf Deutsch
-
-Tool zum Auslesen und Zurücksetzen der Tintenauffangkissen-Zähler beim Epson ET-2820 (und Baugleichen),
-**nachdem das Kissen getauscht wurde**. Einrichten mit `setup.bat`, Drucker per USB anschließen, `start.bat` starten.
-Unter Windows 11 vorher den Epson-Druckertreiber installieren (siehe oben). Nutzung auf eigene Gefahr.
-Das Projekt wurde mithilfe von Claude (Anthropic) erstellt.
