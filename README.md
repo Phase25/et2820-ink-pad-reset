@@ -35,8 +35,8 @@ ET-2820 has been tested.
 Requires Python 3.10+ and Git.
 
 ```
-git clone --recursive https://github.com/Phase25/et28xx-waste-ink-reset
-cd et28xx-waste-ink-reset
+git clone --recursive https://github.com/Phase25/et2820-ink-pad-reset
+cd et2820-ink-pad-reset
 setup.bat
 ```
 
