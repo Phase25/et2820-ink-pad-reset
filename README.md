@@ -1,7 +1,7 @@
 # ET-28xx Waste Ink Pad Reset
 
 A small console tool to **read and reset the waste ink pad counters** of the Epson EcoTank
-ET-2825 and identical models, after the ink pad has been **physically replaced**.
+ET-2820 and identical models, after the ink pad has been **physically replaced**.
 
 English and German user interface (picked from the Windows display language, override with `--lang en` / `--lang de`).
 
@@ -14,11 +14,11 @@ English and German user interface (picked from the Windows display language, ove
 
 ## Supported printers
 
-Tested on hardware: **ET-2825** (reports itself as `ET-2820 Series`), firmware XE13Q2, over USB on Windows 11.
+Tested on hardware: **ET-2820** (reports itself as `ET-2820 Series`), firmware XE13Q2, over USB on Windows 11.
 
 The model check allows the families `ET-281x`, `ET-282x`, `L325x`, `L326x`, which share the same
 EEPROM layout and keys according to [reinkpy](https://codeberg.org/atufi/reinkpy). Only the
-ET-2825 has been tested.
+ET-2820 has been tested.
 
 ## Features
 
@@ -70,6 +70,8 @@ model parameters of the ET-2812 (read key `0x364A`, write key, counter addresses
 - [epson-usb](https://pypi.org/project/epson-usb/) by Onur Kesim and Ircama (MIT)
 - [reinkpy](https://codeberg.org/atufi/reinkpy) for the model database
 
+This project was created with the help of [Claude](https://claude.com/claude-code) (Anthropic), an AI assistant.
+
 ## License
 
 [EUPL-1.2](LICENSE)
@@ -78,6 +80,7 @@ model parameters of the ET-2812 (read key `0x364A`, write key, counter addresses
 
 ## Kurz auf Deutsch
 
-Tool zum Auslesen und Zurücksetzen der Tintenauffangkissen-Zähler beim Epson ET-2825 (und Baugleichen),
+Tool zum Auslesen und Zurücksetzen der Tintenauffangkissen-Zähler beim Epson ET-2820 (und Baugleichen),
 **nachdem das Kissen getauscht wurde**. Einrichten mit `setup.bat`, Drucker per USB anschließen, `start.bat` starten.
 Unter Windows 11 vorher den Epson-Druckertreiber installieren (siehe oben). Nutzung auf eigene Gefahr.
+Das Projekt wurde mithilfe von Claude (Anthropic) erstellt.
