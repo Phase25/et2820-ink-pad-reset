@@ -1,6 +1,6 @@
-"""Tintenauffangkissen-Zähler für Epson ET-2825 (und Baugleiche) auslesen und zurücksetzen.
+"""Tintenauffangkissen-Zähler für Epson ET-2820 (und Baugleiche) auslesen und zurücksetzen.
 
-Read and reset the waste ink pad counters of Epson ET-2825 (and identical models).
+Read and reset the waste ink pad counters of Epson ET-2820 (and identical models).
 
 Nutzt epson_print_conf (vendor/epson_print_conf) und epson-usb.
 """
@@ -16,7 +16,7 @@ HIER = Path(__file__).resolve().parent
 sys.path.insert(0, str(HIER / "vendor" / "epson_print_conf"))
 import epson_print_conf as epc  # noqa: E402
 
-# ET-2825 hat dieselben Keys/Adressen wie ET-2812 (reinkpy führt ET-2810..2826,
+# ET-2820 hat dieselben Keys/Adressen wie ET-2812 (reinkpy führt ET-2810..2826,
 # L3250..L3261 in einem gemeinsamen Eintrag: rkey 0x364A, wkey "Maribaya").
 BASIS_MODELL = "ET-2812"
 ERLAUBTE_FAMILIEN = ("ET-281", "ET-282", "L325", "L326")
@@ -25,7 +25,7 @@ BACKUP_BEREICH = range(0x000, 0x200)  # enthält alle Zähler + Flag 0x100
 
 TEXTE = {
     "de": {
-        "titel": "=== Epson ET-2825 Tintenkissen-Tool ===",
+        "titel": "=== Epson ET-2820 Tintenkissen-Tool ===",
         "verbindung": "\nVerbindung:",
         "usb": "  1) USB-Kabel (empfohlen)",
         "wlan": "  2) WLAN (IP-Adresse eingeben)",
@@ -77,7 +77,7 @@ TEXTE = {
         "ja": "JA",
     },
     "en": {
-        "titel": "=== Epson ET-2825 Waste Ink Pad Tool ===",
+        "titel": "=== Epson ET-2820 Waste Ink Pad Tool ===",
         "verbindung": "\nConnection:",
         "usb": "  1) USB cable (recommended)",
         "wlan": "  2) Wi-Fi (enter IP address)",
