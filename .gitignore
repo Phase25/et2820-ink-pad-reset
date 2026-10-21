@@ -1,0 +1,9 @@
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+/.ignore
+
+# EEPROM backups contain the printer's serial number - never commit
+/backups/
+
+.venv/
+__pycache__/
